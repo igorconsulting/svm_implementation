@@ -72,6 +72,9 @@ $$\begin{align*}
 
 Which can be written in standard form as
 
+$$\text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha$$
+
+and
 $$\begin{align*}
 \text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha  \\
 \text{subject to} \quad & -\alpha_i \leq 0 \\
