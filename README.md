@@ -63,14 +63,12 @@ At the core of the Support Vector Machine (SVM) training process is the optimiza
 ## The Quadratic Programming Problem
 
 For the softmax margin SVM, recall that the optimization problem can be expressed as
-1
-$$ \text{maximize}_\alpha \quad \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha $$
 
-2
-$$\text{subject to} \quad 0 \leq \alpha_i \leq C $$
-
-3
-$$ \sum_{i} \alpha_i y^{(i)} = 0$$
+$$\begin{align*}
+\text{maximize}_{\alpha} \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
+\text{subject to} \quad       & 0 \leq \alpha_i \leq C \\
+\;& \sum_{i} {\alpha}_i y^{(i)} = 0
+\end{align*}$$ 
 
 Which can be written in standard form as
 
