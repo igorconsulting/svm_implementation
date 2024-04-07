@@ -72,7 +72,7 @@ $$\text{maximize}_\alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alp
 Which can be written in standard form as
 
 $$\begin{align*}
-\text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha \\
+\text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha  \\
 \text{subject to} \quad & -\alpha_i \leq 0 \\
 & \alpha_i \leq C \\
 & y^T \alpha = 0
