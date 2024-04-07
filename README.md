@@ -85,8 +85,9 @@ The QP problem in the context of SVMs is formulated as follows:
   $$\min_{\alpha}\frac{1}{2} \mathbf{\alpha}^T P \mathbf{\alpha} - \mathbf{q}^T \mathbf{\alpha} $$
 
 - **Subject to Constraints**:
-  - $ G\mathbf{\alpha} \leq \mathbf{h} $
-  - $ A\mathbf{\alpha} = \mathbf{b} $
+  $$ G\mathbf{\alpha} \leq \mathbf{h} $$
+  and
+  $$ A\mathbf{\alpha} = \mathbf{b} $$
 
 where:
 - $P$ is a matrix derived from the kernel function applied to the training data.
