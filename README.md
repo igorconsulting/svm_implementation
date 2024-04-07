@@ -105,7 +105,9 @@ The matrix $P$ is constructed as the Hadamard (element-wise) product of $y_iy_j$
 ### Defining the Constraints
 The constraints are twofold:
 1. Box constraints $0 \leq \alpha_i \leq C$ are specified by $G$ and $\mathbf{h}$, with $C$ being the regularization parameter that controls the trade-off between maximizing the margin and minimizing classification error.
-2. The equality constraint $\sum_{i=1}^{m} \alpha_i y_i = 0$, enforced by $A$ and $\mathbf{b}$, ensures the decision function is threshold-free, which is pivotal for the SVM model.
+2. The equality constraint
+  $$\sum_{i=1}^{m} \alpha_i y_i = 0,$$
+enforced by $A$ and $\mathbf{b}$, ensures the decision function is threshold-free, which is pivotal for the SVM model.
 
 ### Solving the QP Problem
 The QP problem is solved using the `cvxopt` library's `qp` function, which finds the optimal set of Lagrange multipliers $\mathbf{\alpha}$. These multipliers are instrumental in constructing the model's decision function.
