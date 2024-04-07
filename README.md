@@ -174,7 +174,7 @@ With the virtual environment activated, install the necessary packages using pip
 7. Generating the requirements.txt
 After installing all the necessary packages, you can create the `requirements.txt` file to document the exact versions that the project requires. This is done with the following command:
 
-<pip freeze > requirements.txt>
+```pip freeze > requirements.txt>```
 
 
 This file now contains all the dependencies of your Python project and their respective versions, making it easier to replicate the environment on other machines.
