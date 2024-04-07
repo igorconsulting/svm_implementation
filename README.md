@@ -58,19 +58,14 @@ The SVM training involves a quadratic programming problem aimed at maximizing th
 
 # Solving the SVM Quadratic Programming Problem
 
-At the core of the Support Vector Machine (SVM) training process is the optimization of a quadratic programming (QP) problem. This section aims to elucidate the step-by-step process of solving this QP problem, which is fundamental in determining the SVM's decision function that best separates the classes in the dataset.
+At the core of the Support Vector Machine (SVM) training process is the optimization of a quadratic programming (QP) problem. This section aims to elucidate the step-by-step process of solving this QP problem, which is fundamental in determining the SVM´s decision function that best separates the classes in the dataset.
 
 ## The Quadratic Programming Problem
 
 For the softmax margin SVM, recall that the optimization problem can be expressed as
 
-$$ \text{maximize}_\alpha \quad \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha $$
-
-and
-
-
 $$\begin{align*}
-\text{maximization}_\alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
+\text{maximize}_ \alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
 \text{subject to} \quad & 0 \leq \alpha_i \leq C \\
 & \sum_{i} {\alpha}_i y^{(i)} = 0
 \end{align*}$$ 
@@ -78,7 +73,7 @@ $$\begin{align*}
 Which can be written in standard form as
 
 $$\begin{align*}
-\text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha  \\
+\text{minimize}_ \alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha  \\
 \text{subject to} \quad & -\alpha_i \leq 0 \\
 & \alpha_i \leq C \\
 & y^T \alpha = 0
