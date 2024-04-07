@@ -1,7 +1,7 @@
 # Support Vector Machine (SVM) Implementation Using cvxopt
 
 <p align="center">
-  <img src="https://github.com/igorconsulting/svm_implementation/blob/main/image/dataimg.png" alt="Data Visualization" title="View of Data Distribution">
+  <img src="https://github.com/igorconsulting/svm_implementation/blob/main/image/datamodelimg.png" alt="Data Visualization" title="View of Data Distribution">
 </p>
 
 
