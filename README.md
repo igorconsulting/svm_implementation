@@ -70,7 +70,7 @@ and
 
 
 $$\begin{align*}
-\text{maximize}_\alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
+\text{maximization}_\alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
 \text{subject to} \quad & 0 \leq \alpha_i \leq C \\
 & \sum_{i} {\alpha}_i y^{(i)} = 0
 \end{align*}$$ 
