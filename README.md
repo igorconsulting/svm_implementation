@@ -1,5 +1,10 @@
 # Support Vector Machine (SVM) Implementation Using cvxopt
 
+![Data Visualization](https://github.com/igorconsulting/svm_implementation/blob/main/image/datamodelimg.png)
+
+![Data Visualization](https://github.com/igorconsulting/svm_implementation/blob/main/image/dataimg.png)
+
+
 This project outlines an implementation of a Support Vector Machine (SVM), a versatile machine learning algorithm used for classification, regression, and outlier detection. The implementation leverages the cvxopt library for convex optimization, numpy for numerical operations, and includes the use of various kernel functions to handle both linear and non-linear datasets.
 
 This implementation demonstrates the adaptability of SVMs to both linear and non-linear datasets through the use of different kernel functions. The optimization of decision boundaries via convex optimization underscores SVMs' robust classification capabilities.
