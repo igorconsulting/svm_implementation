@@ -66,8 +66,8 @@ For the softmax margin SVM, recall that the optimization problem can be expresse
 
 
 $$\text{maximize}_\alpha \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
-\text{subject to} \quad & 0 \leq \alpha_i \leq C \\
-& \sum_{i} \alpha_i y^{(i)} = 0 $$
+\text{subject\;to} \quad       & 0 \leq \alpha_i \leq C \\
+                               & \sum_{i} \alpha_i y^{(i)} = 0 $$
 
 Which can be written in standard form as
 
