@@ -64,6 +64,9 @@ At the core of the Support Vector Machine (SVM) training process is the optimiza
 
 For the softmax margin SVM, recall that the optimization problem can be expressed as
 
+$$ \text{maximize}_{\alpha} \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha $$
+
+
 $$\begin{align*}
 \text{maximize}_{\alpha} \quad & \sum_{i} \alpha_i - \frac{1}{2} \alpha^T H \alpha \\
 \text{subject to} \quad       & 0 \leq \alpha_i \leq C \\
@@ -72,9 +75,6 @@ $$\begin{align*}
 
 Which can be written in standard form as
 
-$$\text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha$$
-
-and
 $$\begin{align*}
 \text{minimize}_\alpha \quad & \frac{1}{2} \alpha^T H \alpha - 1^T \alpha  \\
 \text{subject to} \quad & -\alpha_i \leq 0 \\
